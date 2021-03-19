@@ -14,7 +14,7 @@ void permute(const string &a, int low, int high)
 			p[i] = p[low];
 			p[low] = temp;
 			permute(p, low + 1, high);
-	        temp = p[i];
+	                temp = p[i];
 			p[i] = p[low];
 			p[low] = temp;
 
